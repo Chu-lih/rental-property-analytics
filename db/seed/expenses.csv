@@ -1,0 +1,34 @@
+expense_id,category,description,amount,expense_date,vendor,is_recurring,note
+1,property_tax,Annual property tax 2024,45000,2024-05-01,Tax Office,1,
+2,insurance,Building fire insurance 2024,12000,2024-01-15,Fubon Insurance,1,Annual premium
+3,maintenance,Hallway light replacement,1500,2024-02-10,Local electrician,0,Replaced 2F hallway LED lights
+4,utilities,Common area electricity Jan 2024,2800,2024-02-01,Taipower,1,
+5,utilities,Common area electricity Feb 2024,2650,2024-03-01,Taipower,1,
+6,utilities,Common area electricity Mar 2024,2500,2024-04-01,Taipower,1,
+7,utilities,Common area water Q1 2024,3200,2024-04-15,Taiwan Water,1,Quarterly bill
+8,maintenance,Water heater repair 3F,3500,2024-03-20,Plumber Wang,0,3F shared water heater leaking
+9,repair,4F-A AC compressor replacement,8500,2024-06-15,AC Service Co,0,4F-A unit AC broke down
+10,management,Building cleaning service Q1 2024,9000,2024-03-31,Clean Pro,1,Quarterly stairwell and common area cleaning
+11,utilities,Common area electricity Apr 2024,3100,2024-05-01,Taipower,1,
+12,utilities,Common area electricity May 2024,3400,2024-06-01,Taipower,1,Summer rates
+13,utilities,Common area electricity Jun 2024,3800,2024-07-01,Taipower,1,Summer peak
+14,utilities,Common area water Q2 2024,3400,2024-07-15,Taiwan Water,1,Quarterly bill
+15,maintenance,Rooftop waterproofing patch,15000,2024-07-28,Waterproof Co,0,Minor leak above 4F-C after typhoon
+16,management,Building cleaning service Q2 2024,9000,2024-06-30,Clean Pro,1,
+17,utilities,Common area electricity Jul 2024,4200,2024-08-01,Taipower,1,Peak summer
+18,utilities,Common area electricity Aug 2024,4000,2024-09-01,Taipower,1,
+19,utilities,Common area electricity Sep 2024,3200,2024-10-01,Taipower,1,
+20,utilities,Common area water Q3 2024,3600,2024-10-15,Taiwan Water,1,
+21,management,Building cleaning service Q3 2024,9000,2024-09-30,Clean Pro,1,
+22,maintenance,Front door lock replacement,2200,2024-10-05,Locksmith Chen,0,Building front door lock worn out
+23,insurance,Building fire insurance 2025,12500,2025-01-15,Fubon Insurance,1,Annual premium - slight increase
+24,property_tax,Annual property tax 2025,46000,2025-05-01,Tax Office,1,
+25,utilities,Common area electricity Oct 2024,2900,2024-11-01,Taipower,1,
+26,utilities,Common area electricity Nov 2024,2600,2024-12-01,Taipower,1,
+27,utilities,Common area electricity Dec 2024,2700,2025-01-01,Taipower,1,
+28,utilities,Common area water Q4 2024,3100,2025-01-15,Taiwan Water,1,
+29,management,Building cleaning service Q4 2024,9000,2024-12-31,Clean Pro,1,
+30,repair,2F bathroom pipe repair,4500,2025-02-12,Plumber Wang,0,Shared bathroom pipe clog on 2F
+31,management,Building cleaning service Q1 2025,9500,2025-03-31,Clean Pro,1,Price increase
+32,utilities,Common area electricity Jan 2025,2800,2025-02-01,Taipower,1,
+33,utilities,Common area electricity Feb 2025,2600,2025-03-01,Taipower,1,

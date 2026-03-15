@@ -1,0 +1,7 @@
+parking_lease_id,slot_id,tenant_id,start_date,end_date,monthly_fee,status
+1,1,1,2024-01-15,2025-01-14,500,expired
+2,2,3,2024-01-01,,500,active
+3,3,5,2024-01-15,2025-01-14,400,expired
+4,5,4,2024-03-01,,600,active
+5,1,10,2025-01-15,,500,active
+6,4,9,2024-05-01,,400,active

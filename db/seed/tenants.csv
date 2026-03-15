@@ -1,0 +1,13 @@
+tenant_id,first_name,last_name,phone,email,id_number,move_in_date
+1,Wei-Lin,Chen,0912-345-678,weilin.chen@email.com,A123***789,2024-01-15
+2,Yu-Ting,Lin,0923-456-789,yuting.lin@email.com,B234***890,2024-02-01
+3,Jia-Hui,Wang,0934-567-890,jiahui.wang@email.com,C345***901,2024-01-01
+4,Ming-Hao,Liu,0945-678-901,minghao.liu@email.com,D456***012,2024-03-01
+5,Shu-Fen,Huang,0956-789-012,shufen.huang@email.com,E567***123,2024-01-15
+6,Chih-Wei,Chang,0967-890-123,chihwei.chang@email.com,F678***234,2024-04-01
+7,Pei-Ling,Wu,0978-901-234,peiling.wu@email.com,G789***345,2024-06-01
+8,Kuan-Yu,Tsai,0989-012-345,kuanyu.tsai@email.com,H890***456,2024-02-15
+9,Mei-Hua,Yang,0910-123-456,meihua.yang@email.com,I901***567,2024-05-01
+10,Tzu-Chieh,Hsu,0921-234-567,tzuchieh.hsu@email.com,J012***678,2025-01-01
+11,Cheng-En,Li,0932-345-678,chengen.li@email.com,K123***789,2025-03-01
+12,Yi-Chen,Cheng,0943-456-789,yichen.cheng@email.com,L234***890,2024-08-01
