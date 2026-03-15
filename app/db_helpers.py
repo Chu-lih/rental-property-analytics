@@ -89,6 +89,7 @@ def get_unit_summary():
             COALESCE(t.first_name || ' ' || t.last_name, '—') AS "Tenant",
             u.has_balcony AS "Balcony",
             u.has_private_wc AS "Private WC",
+            u.has_washer AS "Washer",
             ROUND(u.base_rent / u.size_ping, 0) AS "Rent/Ping"
         FROM units u
         LEFT JOIN leases l ON u.unit_id = l.unit_id AND l.status = 'active'

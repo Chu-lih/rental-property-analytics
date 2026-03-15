@@ -1,10 +1,10 @@
-unit_id,unit_name,floor,size_ping,base_rent,has_balcony,has_ac,has_private_wc,description
-1,2F-A,2,8.5,8500,1,1,1,Front-facing room with balcony and natural light
-2,2F-B,2,7.0,7000,0,1,1,Middle room with shared hallway access
-3,2F-C,2,6.5,6500,0,1,0,Rear room with shared bathroom
-4,3F-A,3,9.0,9000,1,1,1,Corner room with balcony and cross ventilation
-5,3F-B,3,7.5,7500,0,1,1,Middle room with good natural light
-6,3F-C,3,6.0,6000,0,1,0,Compact rear room with shared bathroom
-7,4F-A,4,10.0,10000,1,1,1,Top floor front room with rooftop access and balcony
-8,4F-B,4,8.0,8000,0,1,1,Top floor middle room with skylight
-9,4F-C,4,12.0,12000,1,1,1,Top floor suite with rooftop access and large balcony
+unit_id,unit_name,floor,size_ping,base_rent,has_balcony,has_ac,has_private_wc,has_washer,description
+1,201,2,8.0,10000,1,1,1,1,Front room with balcony and private washer. Furnished with bed chair refrigerator desk wardrobe.
+2,202,2,6.0,7500,0,1,1,0,Standard room. Furnished with bed chair refrigerator desk wardrobe.
+3,203,2,5.0,7000,0,1,1,0,Compact room. Furnished with bed chair refrigerator desk wardrobe.
+4,204,2,9.0,9500,0,1,1,0,Large rear room. Furnished with bed chair refrigerator desk wardrobe.
+5,301,3,7.0,10000,1,1,1,1,Front room with balcony and private washer. Furnished with bed chair refrigerator desk wardrobe.
+6,302,3,6.0,7500,0,1,1,0,Standard room. Furnished with bed chair refrigerator desk wardrobe.
+7,303,3,5.0,7000,0,1,1,0,Compact room. Furnished with bed chair refrigerator desk wardrobe.
+8,304,3,9.0,9500,0,1,1,0,Large rear room. Furnished with bed chair refrigerator desk wardrobe.
+9,401,4,9.0,10000,0,1,1,0,Top floor room. Furnished with bed chair refrigerator desk wardrobe.

@@ -3,16 +3,17 @@
 -- SQLite Schema
 -- ============================================================
 
--- Residential units (9 rooms across 3 floors)
+-- Residential units (9 rooms: 4 on 2F, 4 on 3F, 1 on 4F)
 CREATE TABLE IF NOT EXISTS units (
     unit_id         INTEGER PRIMARY KEY AUTOINCREMENT,
-    unit_name       TEXT NOT NULL UNIQUE,          -- e.g. '2F-A', '3F-C'
-    floor           INTEGER NOT NULL,              -- 2, 3, 4 (ground floor is storefront)
+    unit_name       TEXT NOT NULL UNIQUE,          -- e.g. '201', '302', '401'
+    floor           INTEGER NOT NULL,              -- 2, 3, 4
     size_ping       REAL NOT NULL,                 -- size in ping (坪)
     base_rent       REAL NOT NULL,                 -- monthly rent in NT$
     has_balcony     INTEGER NOT NULL DEFAULT 0,    -- 0/1
     has_ac          INTEGER NOT NULL DEFAULT 1,    -- 0/1
-    has_private_wc  INTEGER NOT NULL DEFAULT 1,    -- private bathroom 0/1
+    has_private_wc  INTEGER NOT NULL DEFAULT 1,    -- private bathroom 0/1 (all units = 1)
+    has_washer      INTEGER NOT NULL DEFAULT 0,    -- private washer 0/1
     description     TEXT,
     created_at      TEXT NOT NULL DEFAULT (datetime('now'))
 );
@@ -56,13 +57,13 @@ CREATE TABLE IF NOT EXISTS payments (
     created_at      TEXT NOT NULL DEFAULT (datetime('now'))
 );
 
--- Scooter / motorcycle parking slots
+-- Basement (B1) motorcycle parking slots
 CREATE TABLE IF NOT EXISTS parking_slots (
     slot_id         INTEGER PRIMARY KEY AUTOINCREMENT,
-    slot_name       TEXT NOT NULL UNIQUE,           -- e.g. 'P1', 'P2'
-    slot_type       TEXT NOT NULL DEFAULT 'scooter', -- scooter, motorcycle
+    slot_name       TEXT NOT NULL UNIQUE,           -- e.g. 'B1-1', 'B1-2'
+    slot_type       TEXT NOT NULL DEFAULT 'motorcycle', -- motorcycle
     monthly_fee     REAL NOT NULL,
-    is_covered      INTEGER NOT NULL DEFAULT 0,     -- 0/1
+    is_covered      INTEGER NOT NULL DEFAULT 1,     -- 0/1 (basement = covered)
     created_at      TEXT NOT NULL DEFAULT (datetime('now'))
 );
 

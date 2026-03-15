@@ -103,7 +103,7 @@ CHART_COLORS = ["#6C63FF", "#2ECC71", "#F39C12", "#E74C3C", "#3498DB", "#9B59B6"
 
 # ── Title ──────────────────────────────────────────────────
 st.markdown("# 🏠 Rental Property Analytics")
-st.markdown("*3-story townhouse · 9 units · 1 storefront · 5 parking slots*")
+st.markdown("*Townhouse rental · B1–4F · 9 units · 1 storefront · 5 parking spaces*")
 st.divider()
 
 # ── KPI Cards ──────────────────────────────────────────────

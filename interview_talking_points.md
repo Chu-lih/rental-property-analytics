@@ -8,7 +8,7 @@ Quick-reference notes for behavioral and technical interviews.
 
 ### "Tell me about a data project you've built."
 
-> I built an end-to-end analytics system for a rental property — a 3-story townhouse with 9 rooms, a storefront, and parking. I designed the database schema, wrote the ETL pipeline, created 25 automated data quality checks, computed 10+ business KPIs, and built a Streamlit dashboard — all from scratch. The system gives property owners real-time visibility into occupancy, revenue, expenses, and net profitability.
+> I built an end-to-end analytics system for a rental property — a townhouse-style building in Taiwan with basement parking, a ground-floor storefront, and 9 residential units across floors 2–4. I designed the database schema, wrote the ETL pipeline, created 25 automated data quality checks, computed 10+ business KPIs, and built a Streamlit dashboard — all from scratch. The system gives property owners real-time visibility into occupancy, revenue, expenses, and net profitability.
 
 ---
 

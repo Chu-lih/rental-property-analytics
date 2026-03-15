@@ -8,7 +8,7 @@ Copy-paste ready bullet points for Data Analyst / Data Scientist resumes.
 
 ### Project-Level Bullet (1-liner)
 
-- **Built an end-to-end rental property analytics system** using Python, SQL, and Streamlit, modeling 9 residential units, 1 commercial storefront, and 5 parking slots with 242+ records across 8 normalized tables, delivering occupancy tracking, revenue analysis, and cash flow visibility through an interactive dashboard.
+- **Built an end-to-end rental property analytics system** using Python, SQL, and Streamlit, modeling 9 residential units, 1 commercial storefront, and 5 motorcycle parking spaces with 242+ records across 8 normalized tables, delivering occupancy tracking, revenue analysis, and cash flow visibility through an interactive dashboard.
 
 ---
 

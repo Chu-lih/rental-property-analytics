@@ -2,7 +2,7 @@
 
 ## Business Context
 
-This project models a **real-world rental property operation** in Taiwan: a 3-story townhouse with 9 residential units, 1 ground-floor storefront, and 5 scooter/motorcycle parking slots. The owner needs data-driven visibility into occupancy, revenue streams, payment behavior, expenses, and net profitability.
+This project models a **real-world rental property operation** in Taiwan: a townhouse-style building (B1 + 1F + 2F–4F) with 9 residential units, 1 ground-floor storefront, and 5 basement motorcycle parking spaces. The owner needs data-driven visibility into occupancy, revenue streams, payment behavior, expenses, and net profitability.
 
 The system uses **SQLite** as a lightweight embedded database and **Python** for analytics, making it fully runnable on any laptop with zero infrastructure setup.
 
@@ -10,11 +10,11 @@ The system uses **SQLite** as a lightweight embedded database and **Python** for
 
 | Table | Records | Description |
 |-------|---------|-------------|
-| `units` | 9 | Residential rooms across floors 2–4 (6–12 ping, NT$6,000–12,000/mo) |
+| `units` | 9 | Residential rooms across floors 2–4 (5–9 ping, NT$7,000–10,000/mo) |
 | `tenants` | 12 | Tenant contact info (some historical, some current) |
 | `leases` | 17 | Lease agreements (2024–2026, mix of active and expired) |
 | `payments` | 159 | Monthly rent payments with on-time, late, and partial statuses |
-| `parking_slots` | 5 | Scooter/motorcycle parking spaces |
+| `parking_slots` | 5 | Basement motorcycle parking spaces (NT$100/mo each) |
 | `parking_leases` | 6 | Parking rental agreements |
 | `storefront` | 1 | Ground-floor breakfast shop lease |
 | `expenses` | 33 | Property expenses (maintenance, tax, insurance, utilities, repairs) |

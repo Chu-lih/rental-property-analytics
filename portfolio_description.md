@@ -8,7 +8,7 @@
 
 ### What I Built
 
-A complete analytics system for a 3-story townhouse rental property in Taiwan — 9 residential units, 1 commercial storefront, and 5 scooter parking slots. The system covers the full data lifecycle: **schema design → data loading → validation → analytics → visualization**.
+A complete analytics system for a townhouse-style rental property in Taiwan (B1 + 1F + 2F–4F) — 9 residential units, 1 ground-floor storefront, and 5 basement motorcycle parking spaces. The system covers the full data lifecycle: **schema design → data loading → validation → analytics → visualization**.
 
 ### Why It Matters
 

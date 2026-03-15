@@ -1,6 +1,6 @@
 # Rental Property Management & Analytics System
 
-An end-to-end data analytics project that models a real-world rental property in Taiwan — tracking occupancy, revenue, expenses, payment behavior, and profitability through SQL analytics, automated data validation, and an interactive Streamlit dashboard.
+An end-to-end data analytics project that models a real-world townhouse-style rental property in Taiwan — tracking occupancy, revenue, expenses, payment behavior, and profitability through SQL analytics, automated data validation, and an interactive Streamlit dashboard.
 
 > **Built for portfolio demonstration** — showcases SQL, Python, ETL, data quality, KPI design, and data visualization skills relevant to Data Analyst and Data Scientist roles.
 
@@ -8,10 +8,10 @@ An end-to-end data analytics project that models a real-world rental property in
 
 | Asset | Details |
 |-------|----------|
-| **Building** | 3-story townhouse |
-| **Residential** | 9 units (3 per floor, 6–12 ping, NT$6K–12K/mo) |
-| **Commercial** | 1 ground-floor storefront (breakfast shop, NT$25K/mo) |
-| **Parking** | 5 scooter/motorcycle slots (NT$400–600/mo) |
+| **Building** | Townhouse-style rental (B1 + 1F + 2F–4F) |
+| **Residential** | 9 units on 2F–4F (5–9 ping, NT$7K–10K/mo) |
+| **Commercial** | 1F storefront (~20 ping, NT$35K/mo) |
+| **Parking** | 5 basement (B1) motorcycle spaces (NT$100/mo each) |
 
 ## Project Structure
 
@@ -78,7 +78,7 @@ Opens at http://localhost:8501 with KPI cards, cash flow chart, rent breakdown, 
 | `tenants` | 12 | Tenant contact information |
 | `leases` | 17 | Lease agreements linking tenants to units |
 | `payments` | 159 | Monthly rent payment records |
-| `parking_slots` | 5 | Scooter/motorcycle parking spaces |
+| `parking_slots` | 5 | Basement motorcycle parking spaces |
 | `parking_leases` | 6 | Parking slot rental agreements |
 | `storefront` | 1 | Commercial storefront lease details |
 | `expenses` | 33 | Property expenses (maintenance, tax, insurance, utilities) |
