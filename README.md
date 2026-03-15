@@ -1,46 +1,42 @@
 # Rental Property Management & Analytics System
 
-A data project for managing and analyzing a rental property portfolio using Python and SQLite.
+An end-to-end data analytics project that models a real-world rental property in Taiwan — tracking occupancy, revenue, expenses, payment behavior, and profitability through SQL analytics, automated data validation, and an interactive Streamlit dashboard.
+
+> **Built for portfolio demonstration** — showcases SQL, Python, ETL, data quality, KPI design, and data visualization skills relevant to Data Analyst and Data Scientist roles.
 
 ## Property Overview
 
-- **Building**: 3-story townhouse
-- **Residential Units**: 9 rooms (3 per floor)
-- **Commercial**: 1 ground-floor storefront
-- **Parking**: 5 scooter/motorcycle slots
+| Asset | Details |
+|-------|----------|
+| **Building** | 3-story townhouse |
+| **Residential** | 9 units (3 per floor, 6–12 ping, NT$6K–12K/mo) |
+| **Commercial** | 1 ground-floor storefront (breakfast shop, NT$25K/mo) |
+| **Parking** | 5 scooter/motorcycle slots (NT$400–600/mo) |
 
 ## Project Structure
 
 ```
 rental-property-analytics/
 ├── README.md
-├── project_summary.md            # Business context, KPIs, portfolio relevance
+├── project_summary.md              # Business context + KPI reference
+├── portfolio_description.md        # Portfolio-ready project writeup
+├── resume_bullets.md               # Copy-paste resume bullets
+├── interview_talking_points.md     # Interview prep notes
 ├── requirements.txt
 ├── .gitignore
-├── build_db.py                   # Builds rental_property.db from schema + seed data
-├── rental_property.db            # Generated SQLite database (git-ignored)
+├── build_db.py                     # Builds rental_property.db
+├── rental_property.db              # Generated SQLite database (git-ignored)
 ├── db/
-│   ├── schema.sql                # Table definitions
-│   └── seed/                     # CSV seed data files
-│       ├── units.csv
-│       ├── tenants.csv
-│       ├── leases.csv
-│       ├── payments.csv
-│       ├── parking_slots.csv
-│       ├── parking_leases.csv
-│       ├── storefront.csv
-│       └── expenses.csv
-└── analytics/
-    ├── kpi_metrics.py            # KPI calculations
-    ├── run_analytics.py          # Full analytics report
-    ├── validate_data.py          # Data quality checks (22 validations)
-    └── queries/                  # SQL query files
-        ├── occupancy.sql
-        ├── rent_analysis.sql
-        ├── payment_status.sql
-        ├── revenue.sql
-        ├── expenses.sql
-        └── cash_flow.sql
+│   ├── schema.sql                  # 8-table schema
+│   └── seed/                       # CSV seed data (8 files, 242 rows)
+├── analytics/
+│   ├── kpi_metrics.py              # KPI calculations
+│   ├── run_analytics.py            # Full analytics report
+│   ├── validate_data.py            # 25 data quality checks
+│   └── queries/                    # SQL query files (6 files)
+└── app/
+    ├── dashboard.py                # Streamlit dashboard
+    └── db_helpers.py               # DB query helpers
 ```
 
 ## Quick Start
@@ -101,11 +97,21 @@ See [project_summary.md](project_summary.md) for full details.
 
 ## Tech Stack
 
-- **Python 3.10+**
-- **SQLite** — lightweight embedded database
+- **Python 3.10+** — ETL, analytics, data validation
+- **SQLite** — lightweight embedded relational database
 - **pandas** — data manipulation and reporting
+- **Streamlit** — interactive dashboard framework
+- **Plotly** — interactive chart visualizations
 
-## Future Phases
+## Documentation
 
-- **Phase 3**: Streamlit dashboard
-- **Phase 4**: ML models (churn, forecasting, rent analysis)
+- [project_summary.md](project_summary.md) — business context, KPIs, decision support
+- [portfolio_description.md](portfolio_description.md) — portfolio-ready project writeup
+- [resume_bullets.md](resume_bullets.md) — copy-paste resume bullets
+- [interview_talking_points.md](interview_talking_points.md) — interview prep notes
+
+## Future Work
+
+- ML models (churn prediction, rent forecasting, anomaly detection)
+- Time-series analysis and seasonal patterns
+- Multi-property portfolio support
